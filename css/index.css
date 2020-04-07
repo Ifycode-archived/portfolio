@@ -7,7 +7,7 @@
 
 html, body {
     height: 100vh;
-    background:#131313;
+    background:linear-gradient(#292929, #1d1d1d);
 }
 
 body {
