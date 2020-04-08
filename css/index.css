@@ -7,7 +7,7 @@
 
 html, body {
     height: 100vh;
-    background: pink;
+    background: linear-gradient(#292929, #1d1d1d);
 }
 
 body {
@@ -44,20 +44,20 @@ nav {
 .site-owner{
     font-size: 4em;
     /*font-size: 3.8em;*/
-    color: #ddb5bc;
+    color: #18a;
     /*text-transform: uppercase;*/
     line-height: 1.1em;
     letter-spacing: 3px;
     border: none;
-    text-shadow: 1px 1px 1px #1d1d1d,
-                 1px 2px 1px #1d1d1d,
-                 1px 3px 1px #1d1d1d,
-                 1px 4px 1px #1d1d1d,
+    text-shadow: 1px 1px 1px #0d3d4d,
+                1px 2px 1px #0d3d4d,
+                1px 3px 1px #0d3d4d,
+                1px 4px 1px #0d3d4d,
                 
-                 1px 8px 6px rgb(6, 6, 6, 0.8),
-                 1px 12px 7px rgb(6, 6, 6, 0.8),
-                 1px 15px 8px rgb(6, 6, 6, 0.8),
-                 1px 30px 15px rgb(6, 6, 6, 0.8);
+                1px 8px 6px rgb(6, 6, 6, 0.4),
+                1px 12px 7px rgb(6, 6, 6, 0.2),
+                1px 15px 8px rgb(6, 6, 6, 0.2),
+                1px 30px 15px rgb(6, 6, 6, 0.4);
     margin-bottom: .4em;
    /*
    color:  #168;
@@ -163,17 +163,9 @@ nav {
     }*/
 
     .site-owner{
+        color: #18a;
         font-size: 6.5em;
         white-space: nowrap;
-        text-shadow: 1px 1px 1px #1d1d1d,
-                1px 2px 1px #1d1d1d,
-                1px 3px 1px #1d1d1d,
-                1px 4px 1px #1d1d1d,
-                1px 5px 1px #1d1d1d,
-                1px 8px 6px rgb(6, 6, 6, 0.8),
-                1px 12px 7px rgb(6, 6, 6, 0.8),
-                1px 15px 8px rgb(6, 6, 6, 0.8),
-                1px 30px 15px rgb(6, 6, 6, 0.8);
         margin-bottom: .2em;
     }
 
