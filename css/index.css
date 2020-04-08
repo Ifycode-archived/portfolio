@@ -49,15 +49,15 @@ nav {
     line-height: 1.1em;
     letter-spacing: 3px;
     border: none;
-    text-shadow: -1px -1px 1px #1d1d1d,
-                -1px -2px 1px #1d1d1d,
-                -1px -3px 1px #1d1d1d,
-                -1px -4px 1px #1d1d1d,
+    text-shadow: 1px 1px 1px #1d1d1d,
+                 1px 2px 1px #1d1d1d,
+                 1px 3px 1px #1d1d1d,
+                 1px 4px 1px #1d1d1d,
                 
-                -1px -8px -6px rgb(6, 6, 6, 0.8),
-                -1px -12px -7px rgb(6, 6, 6, 0.8),
-                -1px -15px -8px rgb(6, 6, 6, 0.8),
-                -1px -30px -15px rgb(6, 6, 6, 0.8);
+                 1px 8px 6px rgb(6, 6, 6, 0.8),
+                 1px 12px 7px rgb(6, 6, 6, 0.8),
+                 1px 15px 8px rgb(6, 6, 6, 0.8),
+                 1px 30px 15px rgb(6, 6, 6, 0.8);
     margin-bottom: .4em;
    /*
    color:  #168;
