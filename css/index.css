@@ -7,7 +7,7 @@
 
 html, body {
     height: 100vh;
-    background: #168;
+    background: #18a;
 }
 
 body {
@@ -44,7 +44,7 @@ nav {
 .site-owner{
     font-size: 4em;
     /*font-size: 3.8em;*/
-    color: #18a;
+    color: #19b;
     /*text-transform: uppercase;*/
     line-height: 1.1em;
     letter-spacing: 3px;
@@ -89,7 +89,7 @@ nav {
 }
 
 .job-description {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1.1em;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -163,7 +163,6 @@ nav {
     }*/
 
     .site-owner{
-        color: #18a;
         font-size: 6.5em;
         white-space: nowrap;
         margin-bottom: .2em;
