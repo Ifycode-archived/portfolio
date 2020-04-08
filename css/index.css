@@ -7,7 +7,7 @@
 
 html, body {
     height: 100vh;
-    background: #168;
+    background: pink;
 }
 
 body {
@@ -44,7 +44,7 @@ nav {
 .site-owner{
     font-size: 4em;
     /*font-size: 3.8em;*/
-    color: #292929;
+    color: #ddb5bc;
     /*text-transform: uppercase;*/
     line-height: 1.1em;
     letter-spacing: 3px;
