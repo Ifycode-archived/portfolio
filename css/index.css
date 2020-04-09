@@ -42,14 +42,14 @@ summary {
 .summary-inner {
     margin-bottom: 4em;
    /* border: 1px solid blue;*/
-    width: 270px;
+    width: 240px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .site-owner{
     font-family: 'Playfair Display', serif;
-    font-size: 4em;
+    font-size: 3em;
     color: #19b;
     line-height: 1.1em;
     letter-spacing: 3px;
@@ -130,7 +130,7 @@ summary {
 
 .job-description {
     color: rgba(255, 255, 255, 0.3);
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-family: 'Lucida Sans', 
@@ -154,7 +154,7 @@ nav {
    /* border: 1px solid black;*/
     display: flex;
     align-items: center;
-    width: 270px;
+    width: 240px;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -238,6 +238,27 @@ svg {
     width: 40px;
     height: inherit;
    /* background: white;*/
+}
+
+@media screen and (min-width: 330px) {
+    
+    .summary-inner {
+        width: 270px;
+       
+    }
+
+    nav {
+        width: 270px;
+    }
+
+    .site-owner {
+        font-size: 4em;
+    }
+
+    .job-description {
+        font-size: 1.1em;
+    }
+
 }
 
 
