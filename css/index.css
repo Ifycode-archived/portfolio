@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 * {
     margin: 0;
     border: 0;
@@ -46,6 +48,7 @@ summary {
 }
 
 .site-owner{
+    font-family: 'Playfair Display', serif;
     font-size: 4em;
     color: #19b;
     line-height: 1.1em;
