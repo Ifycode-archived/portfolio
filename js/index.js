@@ -10,10 +10,8 @@ var interval = setInterval(animateHome, 1000);
 function animateHome() {
     intervalCount++;
     if (intervalCount == 1) {
-        /*
-        body.style.gridTemplateRows = '1fr 110px';
-        */
-        summary.style.height = 'calc(100vh - 110px)';
+        body.style.gridTemplateRows = '1fr 210px';
+        summary.style.height = 'calc(100vh - 210px)';
         nav.style.opacity = '1';
         clearInterval(interval);
         window.onresize = function() {
