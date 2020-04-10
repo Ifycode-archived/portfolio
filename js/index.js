@@ -10,8 +10,10 @@ var interval = setInterval(animateHome, 1000);
 function animateHome() {
     intervalCount++;
     if (intervalCount == 1) {
-        /*body.style.gridTemplateRows = '1fr 110px';
-        summary.style.height = 'calc(100vh - 110px)';*/
+        /*Initial load*/
+        body.style.gridTemplateRows = '1fr 160px';
+        summary.style.height = 'calc(100vh - 160px)';
+        
          var deviceSizes = [
             window.matchMedia( "(orientation: landscape)"),
             window.matchMedia( "(max-height: 429px)" )
@@ -19,15 +21,14 @@ function animateHome() {
 
         function respondToQuery() {
             if (deviceSizes[0].matches && deviceSizes[1].matches) {
-                body.style.gridTemplateRows = '1fr 90px';
-                summary.style.height = 'calc(100vh - 90px)';
+                body.style.gridTemplateRows = '1fr 105px';
+                summary.style.height = 'calc(100vh - 105px)';
                 
             }
 
             if (!deviceSizes[0].matches && !deviceSizes[1].matches) {
                 body.style.gridTemplateRows = '1fr 160px';
-                summary.style.height = 'calc(100vh - 160px)';
-                
+                summary.style.height = 'calc(100vh - 160px)';   
             }
         }
 
