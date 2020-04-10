@@ -10,8 +10,8 @@ var interval = setInterval(animateHome, 1000);
 function animateHome() {
     intervalCount++;
     if (intervalCount == 1) {
-        body.style.gridTemplateRows = '1fr 110px';
-        summary.style.height = 'calc(100vh - 110px)';
+        /*body.style.gridTemplateRows = '1fr 110px';
+        summary.style.height = 'calc(100vh - 110px)';*/
         nav.style.opacity = '1';
         clearInterval(interval);
 
@@ -23,22 +23,18 @@ function animateHome() {
 
         var deviceSizes = [
             window.matchMedia( "(orientation: landscape)"),
-            window.matchMedia( "(max-height: 329px)" ),
             window.matchMedia( "(max-height: 429px)" )
-           
         ]
 
 
         function respondToQuery() {
-            if ( (deviceSizes[0].matches && deviceSizes[1].matches) || 
-                 (deviceSizes[0].matches && deviceSizes[2].matches) ) {
+            if (deviceSizes[0].matches && deviceSizes[1].matches) {
                 body.style.gridTemplateRows = '1fr 90px';
                 summary.style.height = 'calc(100vh - 90px)';
                 
             }
 
-            if ( (!deviceSizes[0].matches && !deviceSizes[1].matches) || 
-                 (!deviceSizes[0].matches && !deviceSizes[2].matches) ) {
+            if (!deviceSizes[0].matches && !deviceSizes[1].matches) {
                 body.style.gridTemplateRows = '1fr 110px';
                 summary.style.height = 'calc(100vh - 110px)';
                 
