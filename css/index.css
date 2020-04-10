@@ -80,9 +80,6 @@ summary {
                   sans-serif;
 }
 
-.job-description-lastletters {
-    display: inline;
-}
 
 
 /*navigation-area*/
@@ -246,10 +243,6 @@ svg {
 
     .job-description {
         font-size: 1.4em;
-    }
-
-    .job-description-lastletters {
-        display: inline;
     }
 }
 
