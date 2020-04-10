@@ -25,8 +25,8 @@ function animateHome() {
             }
 
             if (!deviceSizes[0].matches && !deviceSizes[1].matches) {
-                body.style.gridTemplateRows = '1fr 110px';
-                summary.style.height = 'calc(100vh - 110px)';
+                body.style.gridTemplateRows = '1fr 160px';
+                summary.style.height = 'calc(100vh - 160px)';
                 
             }
         }
