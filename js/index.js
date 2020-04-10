@@ -12,20 +12,10 @@ function animateHome() {
     if (intervalCount == 1) {
         /*body.style.gridTemplateRows = '1fr 110px';
         summary.style.height = 'calc(100vh - 110px)';*/
-        nav.style.opacity = '1';
-        clearInterval(interval);
-
-        window.onresize = function() {
-            summary.style.transition = 'none';
-        }
-
-       
-
-        var deviceSizes = [
+         var deviceSizes = [
             window.matchMedia( "(orientation: landscape)"),
             window.matchMedia( "(max-height: 429px)" )
         ]
-
 
         function respondToQuery() {
             if (deviceSizes[0].matches && deviceSizes[1].matches) {
@@ -46,6 +36,13 @@ function animateHome() {
             deviceSizes[i].addListener(respondToQuery);
         }
         
+        nav.style.opacity = '1';
+        
+        clearInterval(interval);
+
+        window.onresize = function() {
+            summary.style.transition = 'none';
+        } 
     }
 }
 
