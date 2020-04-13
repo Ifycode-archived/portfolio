@@ -1,4 +1,8 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
 * {
     margin: 0;
@@ -49,7 +53,10 @@ summary {
 
 
 .site-owner{
+    /*
     font-family: 'Playfair Display', serif;
+    */
+    font-family: 'Josefin Slab', serif;
     font-size: 3.5em;
     color: #19b;
     line-height: 1.1em;
