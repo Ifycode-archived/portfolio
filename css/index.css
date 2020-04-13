@@ -78,13 +78,14 @@ summary {
     font-size: 1.05em;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 
+    /*font-family: 'Lucida Sans', 
                  'Lucida Sans Regular', 
                  'Lucida Grande', 
                  'Lucida Sans Unicode', 
                   Geneva, 
                   Verdana, 
-                  sans-serif;
+                  sans-serif;*/
+   font-family: 'Josefin Slab', serif;
 }
 
 
