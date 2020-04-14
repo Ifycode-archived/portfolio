@@ -1,8 +1,6 @@
-/*
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-*/
 
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 * {
     margin: 0;
     border: 0;
@@ -52,10 +50,7 @@ summary {
 
 
 .site-owner{
-    /*
     font-family: 'Playfair Display', serif;
-    */
-    font-family: 'Prata', serif;
     font-size: 3.5em;
     color: #19b;
     line-height: 1.1em;
